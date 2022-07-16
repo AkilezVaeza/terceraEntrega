@@ -1,0 +1,95 @@
+.titulo {
+  color: white;
+  background-color: green;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+}
+.logo img {
+  width: 100%;
+  display: flex;
+}
+
+.lista ul {
+  list-style: none;
+}
+.lista ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.imgBordes {
+  border-radius: 10px;
+}
+
+.btnPrimario, .boton {
+  padding: 5px 15px;
+  margin: 10px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+}
+
+.tarjeta {
+  width: 250px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: default;
+  transition: all 400ms ease;
+}
+.tarjeta:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.tarjeta1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.tarjeta1:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.texto {
+  text-align: center;
+}
+
+.texto1 {
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+
+.btnForm {
+  width: 100px;
+}
+
+.tarjeta__titulo {
+  font-size: 18px;
+}
+
+.tarjeta__descripcion {
+  font-size: 15px;
+  margin: 10px;
+  color: #6a6a6a;
+}
+
+.tarjeta__img {
+  width: 100%;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
